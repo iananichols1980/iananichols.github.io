@@ -23,3 +23,9 @@
   <img src="construction.png" alt="Future Home of iananichols.net - Under Construction" />
 </body>
 </html>
+<script>
+  if (new URLSearchParams(location.search).get('beta') === '1') {
+    location.href = '/beta/';
+  }
+</script>
+https://iananichols.net/?beta=1
