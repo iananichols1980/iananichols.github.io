@@ -1,0 +1,1 @@
+document.addEventListener('keydown',(e)=>{if(e.key.toLowerCase()==='b'){window.location.href='/start/';}});
